@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Inicio - Netflix</title>
+    
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!--Arquivos CSS plugin-owl-carousel2-->
+
+    <link rel="stylesheet" href="styles/plugin-owl-carousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/plugin-owl-carousel2/owl.theme.default.min.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/Netflix logo.png" alt="Netflix" class="logo">
+        <nav class="menus">
+            <nav class="menu-esquerdo">
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+            </nav>
+            <nav class="menu-direito">
+                <i class="fa-solid fa-magnifying-glass" id="pesquisar"></i>
+                <i class="fa-solid fa-bell" id="notificacoes"></i>
+                <i class="fa-solid fa-circle-user" id="user"></i>
+            </nav>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="filme-principal">
+            <div class="about-movie">
+               <img src="img/titulo.png" alt="JACK REACHER" class="titulo">
+               <p class="sinopse">Quando descobre que sua amiga foi acusada de homicídio, Jack Reacher suspeita de uma conspiração e logo se vê fugindo com a moça.</p>
+            </div>
+            <div class="botoes">
+                <button role="button" class="botao-assistir">
+                    <i class="fa-solid fa-play"></i>
+                    <p>Assistir</p>
+                </button>
+                <button role="button" class="botao-mais-info">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <p>Mais informações</p>
+                </button>
+            </div>
+            <div class="idade">
+                <img src="img/14.png" alt="16 anos" class="indicacao">
+            </div>
+        </section>
+        <h3>Top 10 em filmes no Brasil hoje</h3>
+        
+        <!--Carrosel top 10-->
+
+            <div class="owl-carousel owl-theme" id="carrossel"> <!-- "class" para chamar o plugin do carrossel dentro da div -->
+                <div class="item">
+                    <img src="img/mini1.jpg" alt="Top 1" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini2.jpg" alt="Top 2" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini3.jpg" alt="Top 3" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini4.jpg" alt="Top 4" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini5.jpg" alt="Top5" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini6.jpg" alt="Top 6" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini7.jpg" alt="Top 7" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini8.jpg" alt="Top 8" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini9.jpg" alt="Top 9" class="capa">
+                </div>
+                <div class="item">
+                    <img src="img/mini10.jpg" alt="Top 10" class="capa">
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/eltonneiferson/" target="_blank" class="link" >Elton Neiferson</a> para <a href="https://www.dio.me/" target="_blank"><abbr title="Digital Innovation One" class="link">DIO</abbr></a>.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/5372c94ab4.js" crossorigin="anonymous"></script> <!-- Script para importar icones -->
+
+    <!-- Scripts do plugin-owl-carousel2 -->
+
+    <script src="scripts/plugin-owl-carousel2/jquery.min.js"></script>
+    <script src="scripts/plugin-owl-carousel2/owl.carousel.min.js"></script>
+    <script src="scripts/plugin-owl-carousel2/setup.js"></script>
+
+</body>
+</html>
