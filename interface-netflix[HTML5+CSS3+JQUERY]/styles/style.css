@@ -220,6 +220,10 @@ footer {
         display: none;
     }
 
+    i#user {
+        color: var(--cor1);
+    }
+
     section.filme-principal {
         display: flex;
         flex-direction: column;
