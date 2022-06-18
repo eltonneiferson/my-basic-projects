@@ -11,6 +11,8 @@ Aqui estão algumas coisas sobre mim:
 - ⚡ Curiosidades: Apaixonado por tecnologia, fã do mundo geek, curto maratonar bons filmes, series e animes, e agora aprendendo a programar!
 - 💬 Quer saber mais sobre mim só chamar em alguma dessas redes aqui, e vamos trocar uma ideia:
 
-📲Linkedin: https://www.linkedin.com/in/elton-neiferson-134431213/
-📲Instagram: @eltonneiferson
-📲Discord: eltonneiferson#7237
+**📲Linkedin:** https://www.linkedin.com/in/elton-neiferson-134431213/
+**📲Instagram:** @eltonneiferson
+**📲Discord:** eltonneiferson#7237
+
+**Bye bye guys 👋 ###**
